@@ -1,0 +1,114 @@
+/* styles.css */
+/* Define a margem padrão e o preenchimento para todos os elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    /* Define a fonte padrão para o corpo da página */
+    margin: 0;
+    /* Remove a margem padrão */
+    padding: 0;
+    /* Remove o preenchimento padrão */
+    background-color: #f4f4f4;
+    /* Define a cor de fundo */
+    color: #333;
+    /* Define a cor do texto */
+    display: flex;
+    /* Usa o layout flexível para centralização */
+    justify-content: center;
+    /* Centraliza horizontalmente */
+    align-items: center;
+    /* Centraliza verticalmente */
+    height: 100vh;
+    /* Define a altura do corpo para preencher toda a viewport */
+}
+
+.container {
+    background-color: #fff;
+    /* Define a cor de fundo do contêiner */
+    padding: 20px;
+    /* Adiciona preenchimento interno ao contêiner */
+    border-radius: 8px;
+    /* Arredonda os cantos do contêiner */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Adiciona uma sombra ao redor do contêiner */
+    width: 100%;
+    /* Define a largura do contêiner para 100% do contêiner pai */
+    max-width: 600px;
+    /* Define a largura máxima do contêiner */
+}
+
+h1 {
+    text-align: center;
+    /* Centraliza o título */
+}
+
+form {
+    margin-bottom: 20px;
+    /* Adiciona uma margem inferior ao formulário */
+}
+
+label {
+    display: block;
+    /* Faz com que os rótulos sejam exibidos como blocos */
+    margin-top: 10px;
+    /* Adiciona uma margem superior aos rótulos */
+}
+
+input {
+    padding: 5px;
+    /* Adiciona preenchimento interno aos campos de entrada */
+    margin-top: 5px;
+    /* Adiciona uma margem superior aos campos de entrada */
+    width: 100%;
+    /* Define a largura dos campos de entrada para 100% do contêiner pai */
+    box-sizing: border-box;
+    /* Inclui bordas e preenchimentos na largura total */
+}
+
+button {
+    margin-top: 10px;
+    /* Adiciona uma margem superior ao botão */
+    padding: 10px;
+    /* Adiciona preenchimento interno ao botão */
+    width: 100%;
+    /* Define a largura do botão para 100% do contêiner pai */
+    background-color: #5cb85c;
+    /* Define a cor de fundo do botão */
+    color: white;
+    /* Define a cor do texto do botão */
+    border: none;
+    /* Remove a borda padrão */
+    cursor: pointer;
+    /* Muda o cursor para uma mãozinha ao passar sobre o botão */
+}
+
+button:hover {
+    background-color: #4cae4c;
+    /* Muda a cor de fundo do botão ao passar o mouse por cima */
+}
+
+table {
+    width: 100%;
+    /* Define a largura da tabela para 100% do contêiner pai */
+    border-collapse: collapse;
+    /* Remove os espaços entre as células da tabela */
+}
+
+th, td {
+    padding: 10px;
+    /* Adiciona preenchimento interno às células */
+    border: 1px solid #ddd;
+    /* Define uma borda para as células */
+    text-align: left;
+    /* Alinha o texto à esquerda */
+}
+
+th {
+    background-color: #f2f2f2;
+    /* Define a cor de fundo das células de cabeçalho */
+}

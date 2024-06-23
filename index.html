@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <!-- Define o conjunto de caracteres como UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Configura a visualização para dispositivos móveis -->
+    <title>Agenda de Contatos</title>
+    <!-- Título da página -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Link para o arquivo CSS externo -->
+</head>
+<body>
+    <div class="container">
+        <!-- Contêiner centralizado para a agenda de contatos -->
+        <h1>Agenda de Contatos</h1>
+        <!-- Título principal da página -->
+        <form id="contact-form">
+            <!-- Formulário para inserir os contatos -->
+            <label for="name">Nome:</label>
+            <!-- Rótulo para o campo de nome -->
+            <input type="text" id="name" required>
+            <!-- Campo de entrada para o nome, obrigatório -->
+            <label for="phone">Telefone:</label>
+            <!-- Rótulo para o campo de telefone -->
+            <input type="tel" id="phone" required>
+            <!-- Campo de entrada para o telefone, obrigatório -->
+            <button type="submit">Cadastrar</button>
+            <!-- Botão para enviar o formulário -->
+        </form>
+        <table>
+            <!-- Tabela para listar os contatos -->
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <!-- Cabeçalho da coluna de nome -->
+                    <th>Telefone</th>
+                    <!-- Cabeçalho da coluna de telefone -->
+                </tr>
+            </thead>
+            <tbody id="contact-list">
+                <!-- Corpo da tabela onde os contatos serão adicionados -->
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+    <!-- Link para o arquivo JavaScript externo -->
+</body>
+</html>
